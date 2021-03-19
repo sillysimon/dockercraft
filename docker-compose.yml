@@ -2,6 +2,6 @@ services:
   minecraft-server:
     build: .
     volumes: 
-      - ./serverfiles:/minecraft
+      - ./serverfiles:/minecraft:rw
     ports:
       - 25565:25565
