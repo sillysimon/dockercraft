@@ -1,8 +1,7 @@
-version: 0.1
 services:
   minecraft-server:
     build: .
     volumes: 
-      -./serverfiles:/minecraft
+      - ./serverfiles:/minecraft
     ports:
-      -25565:25565
+      - 25565:25565
