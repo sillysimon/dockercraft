@@ -1,0 +1,2 @@
+/serverfiles/*
+/serverfiles/!startserver.sh
