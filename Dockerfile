@@ -1,2 +1,2 @@
-FROM adoptopenjdk:11-jre-hotspot
+FROM adoptopenjdk:8-jre
 CMD ["/minecraft/startserver.sh"]
