@@ -1,2 +1,3 @@
-FROM adoptopenjdk:8-jre
+FROM alpine:latest
+RUN apk add openjdk8-jre
 CMD ["/minecraft/startserver.sh"]
